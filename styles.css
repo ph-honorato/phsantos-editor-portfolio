@@ -1,0 +1,14 @@
+:root {
+  --back-color: #171a23;
+  --font-color: #f4faff;
+  --over-color: #29292c;
+}
+
+body {
+  background-color: var(--back-color);
+  color: var(--font-color);
+}
+
+.container-fluid {
+  padding-top: 4rem;
+}

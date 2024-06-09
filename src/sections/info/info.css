@@ -1,0 +1,24 @@
+b {
+  color: var(--font-color);
+}
+
+.info-row {
+  min-height: 130px;
+}
+
+h1,
+h5 {
+  color: var(--font-color);
+}
+
+.profile {
+  width: 100%;
+  height: auto;
+  outline: 1px solid var(--font-color);
+  margin-top: 5px;
+}
+
+.bio {
+  background-color: var(--over-color);
+  padding: 16px;
+}
