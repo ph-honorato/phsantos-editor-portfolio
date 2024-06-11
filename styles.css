@@ -12,3 +12,9 @@ body {
 .container-fluid {
   padding-top: 4rem;
 }
+
+h1,
+h5,
+p {
+  color: var(--font-color);
+}

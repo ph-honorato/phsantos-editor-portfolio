@@ -4,11 +4,7 @@ b {
 
 .info-row {
   min-height: 130px;
-}
-
-h1,
-h5 {
-  color: var(--font-color);
+  margin-bottom: 6rem;
 }
 
 .profile {

@@ -1,0 +1,22 @@
+.ytb-imagens {
+  width: 100%;
+  height: auto;
+  outline: 1px solid var(--font-color);
+  margin-bottom: 6px;
+
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.ytb-imagens:hover {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.subtitle {
+  font-style: italic;
+}
