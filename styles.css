@@ -5,8 +5,26 @@
 }
 
 body {
-  background-color: var(--back-color);
+  /* background-color: var(--back-color); */
   color: var(--font-color);
+
+  background: rgb(29, 36, 56);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(29, 36, 56, 1) 0%,
+    rgba(23, 26, 35, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(29, 36, 56, 1) 0%,
+    rgba(23, 26, 35, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(29, 36, 56, 1) 0%,
+    rgba(23, 26, 35, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d2438",endColorstr="#171a23",GradientType=1);
 }
 
 .container-fluid {
