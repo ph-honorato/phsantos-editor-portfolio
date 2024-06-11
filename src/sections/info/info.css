@@ -4,12 +4,12 @@ b {
 
 .info-row {
   min-height: 130px;
-  margin-bottom: 6rem;
 }
 
-.profile {
+.profile-picture {
   width: 100%;
   height: auto;
+  max-width: 200px;
   outline: 1px solid var(--font-color);
   margin-top: 5px;
 }
@@ -22,4 +22,18 @@ b {
 .bio span {
   opacity: 0.5;
   font-size: 12px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+  .info-row {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 992px) {
+  .info-row {
+    margin-bottom: 6rem;
+  }
 }

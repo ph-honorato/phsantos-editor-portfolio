@@ -1,20 +1,21 @@
 <body>
   <div class="container">
     <div class="row info-row">
-      <div class="col-md-8">
+      <!-- name and photo desktop -->
+      <div class="d-none d-lg-inline col-8">
         <div class="row">
           <div class="col-2">
             <img
               src="../../../src/imgs/profile.jpg"
               alt="imagem de perfil"
-              class="profile"
+              class="profile-picture"
             />
           </div>
           <div class="col-10">
-            <div class="row" style="height: 100%;">
-              <h1 style="font-size: 50px;">PEDRO SANTOS</h1>
-              <h5 style="margin-bottom: 0px;display: flex;">
-                <span style="align-self: flex-end;">
+            <div class="row" style="height: 100%">
+              <h1 style="font-size: 50px">PEDRO SANTOS</h1>
+              <h5 style="margin-bottom: 0px; display: flex">
+                <span style="align-self: flex-end">
                   phsantos.editor@gmail.com <br />
                   (31) 99565-8028 <br />
                 </span>
@@ -23,13 +24,41 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4 bio">
-        <p>
-          <ul class="mb-0">
-            <li>Desenvolvedor, editor e DJ<span>;</span></li>
-            <li>Agilidade para produção dos seus conteúdos<span>;</span></li>
-            <li>Certificado pela escola SAGA<span>;</span></li>
-          </ul>
+
+      <!-- name and photo mobile -->
+      <div class="d-inline d-lg-none col-12">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 style="font-size: 35px">PEDRO SANTOS</h1>
+          </div>
+          <div class="col-12 text-center mb-2">
+            <img
+              src="../../../src/imgs/profile.jpg"
+              alt="imagem de perfil"
+              class="profile-picture"
+            />
+          </div>
+          <div class="col-12 text-center mb-3">
+            <h5>
+              phsantos.editor@gmail.com <br />
+              (31) 99565-8028 <br />
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- bio -->
+      <div class="col-12 col-lg-4 bio">
+        <ul class="d-none d-lg-block mb-0">
+          <li>Desenvolvedor, editor e DJ<span>;</span></li>
+          <li>Agilidade para produção dos seus conteúdos<span>;</span></li>
+          <li>Certificado pela escola SAGA<span>;</span></li>
+        </ul>
+
+        <p class="d-block d-lg-none text-center mb-0">
+          Desenvolvedor, editor e DJ<span>;</span><br />
+          Agilidade para produção dos seus conteúdos<span>;</span><br />
+          Certificado pela escola SAGA<span>;</span>
         </p>
       </div>
     </div>
