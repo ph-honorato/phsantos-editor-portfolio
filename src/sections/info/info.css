@@ -18,3 +18,8 @@ b {
   background-color: var(--over-color);
   padding: 16px;
 }
+
+.bio span {
+  opacity: 0.5;
+  font-size: 12px;
+}
