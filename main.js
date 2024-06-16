@@ -1,4 +1,4 @@
-var version = "0.10";
+var version = "0.11";
 
 $(function () {
   console.log("test");

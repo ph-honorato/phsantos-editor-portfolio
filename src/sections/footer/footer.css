@@ -1,7 +1,25 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 2rem;
+  box-sizing: inherit;
+}
+
 footer {
   background-color: var(--over-color);
   height: 30px;
   padding-top: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 #version {
