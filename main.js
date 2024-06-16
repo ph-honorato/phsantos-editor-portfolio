@@ -5,7 +5,6 @@ $(function () {
 });
 
 // TODO:
-// Adicionar os ícones
 // Colocar botão de whatsapp no canto inferior direito / botão para mobile
 // Corrigir alinhamento em mobile
 // Adicionar uma animação para os textos aparecerem conforme o scroll
