@@ -1,4 +1,4 @@
-var version = "0.9";
+var version = "0.10";
 
 $(function () {
   console.log("test");
@@ -15,6 +15,5 @@ function loadWebVersion() {
 window.setTimeout(loadWebVersion, 500);
 
 // TODO:
-// Corrigir alinhamento em mobile
 // Adicionar uma animação para os textos aparecerem conforme o scroll
 // Trocar a scrollbar
