@@ -1,4 +1,4 @@
-var version = "0.11";
+var version = "0.12";
 
 $(function () {
   console.log("test");
@@ -16,4 +16,3 @@ window.setTimeout(loadWebVersion, 500);
 
 // TODO:
 // Adicionar uma animação para os textos aparecerem conforme o scroll
-// Trocar a scrollbar
